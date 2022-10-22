@@ -8,7 +8,7 @@
     }info[4];
 
 void readFile(){
-    char const* const fileName = "/home/abood/CProjects/untitled/input.txt";
+    char const* const fileName = "location to input file";
     FILE* file = fopen(fileName, "r");
     if(!file){
         printf("\n Unable to open : %s ", fileName);
